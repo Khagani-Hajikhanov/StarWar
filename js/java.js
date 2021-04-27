@@ -103,16 +103,20 @@ function anaSehifeStart(){
     console.log(secildi);
     switch(secildi){
         case 1:
-            document.querySelector('.homePageImage').src = "../images/hero1.jpg";
+            document.querySelector('.homePageImage').setAttribute('src', '../images/hero1.jpg');
+            document.querySelector('.yourHeroIcon').setAttribute('src', '../images/hero1.jpg');
         break;
         case 2:
-            document.querySelector('.homePageImage').src = "../images/hero2.jpg";
+            document.querySelector('.homePageImage').setAttribute('src', '../images/hero2.jpg');
+            document.querySelector('.yourHeroIcon').setAttribute('src', '../images/hero2.jpg');
         break;
         case 3:
-            document.querySelector('.homePageImage').src = "../images/hero3.png";
+            document.querySelector('.homePageImage').setAttribute('src', '../images/hero3.png');
+            document.querySelector('.yourHeroIcon').setAttribute('src', '../images/hero3.png');
         break;
         case 4:
-            document.querySelector('.homePageImage').src = "../images/hero 4.jpg";
+            document.querySelector('.homePageImage').setAttribute('src', '../images/hero 4.jpg');
+            document.querySelector('.yourHeroIcon').setAttribute('src', '../images/hero 4.jpg');
         break;
     }
     
