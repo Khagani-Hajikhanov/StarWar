@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
+    <audio id="trueAudio">
+        <source src="./audio/true.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="falseAudio">
+        <source src="./audio/false.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="bg">
+        <source src="./audio/background.mp3" type="audio/mpeg">
+    </audio>
     <div class="startcont">
         <div class="userlogo">
                 <p class="userlogintitle" >Please enter your name:</p>
@@ -49,13 +58,13 @@
                     </div>
                     <div class="solHealth">
                         <div class="solUserName">
-                            Khagani
+                            -
                         </div>
                         <div class="solHealthCount">
-                            1200
+                            -
                         </div>
                         <div class="solHealthMeter">
-                            <meter min="0" max="1200" value="437"></meter>
+                            <meter min="0" max="1000" value="1000" class="solMeter" ></meter>
                         </div>
                     </div>
 
@@ -73,13 +82,13 @@
                     
                     <div class="sagHealth">
                         <div class="sagUserName">
-                            Computer
+                            COMPUTER
                         </div>
                         <div class="sagHealthCount">
-                            1200
+                            -
                         </div>
                         <div class="sagHealthMeter">
-                            <meter min="0" max="1200" value="437"></meter>
+                            <meter min="0" max="1000" value="1000" class="sagMeter" ></meter>
                         </div>
                     </div>
                     <div class="sagImage">
@@ -106,12 +115,31 @@
             </div>
         </div>
         <div class="btn">
-            <button class="start">Start</button>
-            <button class="pause">Pause</button>
-            <div class="netice"></div>
+            <button class="pause">ATTACK</button>
         </div>
+        <div class="homePageCont2">
+            <div class="homePageSol">
+                <div class="homePageImageDiv"><img class="homePageImage" src="./image/startImage.png"></div>
+            </div>
+            <div class="scoreHomePage">
+                <div class="scoreUser">
+                    -
+                </div>
+                <div class="scoreBetwen">
+                    vs
+                </div>
+                <div class="scoreComp">
+                    -
+                </div>
+            </div>
+            <div class="homePageSag">
+                <div class="homePageImageDiv homePageComputer"><img class="homePageImage2" src="./image/comp.png"></div>
+            </div>
+        </div>
+        
+        <div class="footer">
 
-
+        </div>
 
 
     <script src="./js/java.js"></script>
