@@ -60,9 +60,9 @@ window.onkeypress = function(e){
             document.querySelector('.startcont').style.display = "none";
         }else{
             if(userName < 3){
-                alert("IStifadeci adi minimum 3 simvol olmalidir")
+                alert("IStifadeci adi minimum 3 simvol olmalidir");
             }else if(secildi === 0){
-                alert("Select your hero")
+                alert("Select your hero");
             }
         }
     }
