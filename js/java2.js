@@ -21,7 +21,7 @@ document.querySelector('.pause').onclick = function(){
             document.querySelector('.scoreComp').innerHTML = computerScore;
 
             userLife  -= computerScore;
-            computerLife -=zz;
+            computerLife -=attackScore;
             
 
             att.style.animationPlayState = 'running';
