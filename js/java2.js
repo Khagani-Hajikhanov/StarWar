@@ -60,10 +60,7 @@ document.querySelector('.pause').onclick = function(){
         
     };
 
-    document.querySelector('.start').onclick = function(){
-        att.style.animationPlayState = 'running';
-        
-    }
+ 
 
 
     function levelUp(){
