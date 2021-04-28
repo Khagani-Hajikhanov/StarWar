@@ -103,7 +103,7 @@ function anaSehifeStart(){
     console.log(secildi);
     switch(secildi){
         case 1:
-            document.querySelector('.homePageImage').setAttribute('src', '../images/hero1.jpg');
+            document.getElementById("userHomePage").style.backgroundImage = "url('../images/hero1.jpg')";
             document.querySelector('.yourHeroIcon').setAttribute('src', '../images/hero1.jpg');
         break;
         case 2:
